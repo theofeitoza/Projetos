@@ -1,0 +1,16 @@
+from random import randint
+import random
+lista=['pedra','papel','tesoura']
+pc=random.choice(lista)
+num=randint(1,3)
+print(pc)
+#if num==1:
+#    pc='Pedra'
+#elif num==2:
+#    pc='Papel'
+#else:
+#    pc='Tesoura'
+print('='*30)
+print('Jogo de Pedra Papel Tesoura')
+print('='*30)
+jogador=input(str('O que voce deseja jogar? '))
